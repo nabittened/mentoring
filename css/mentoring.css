@@ -107,6 +107,14 @@ h1:before {
 	top:			-20px;
 }
 
+.profile {
+	
+	position: 	absolute;
+	top:		5px;
+	right:		5px;
+	font-size:	12px;
+}
+
 ul.sociallinks {
 	
 	position:	absolute;
@@ -396,4 +404,140 @@ ul.testimonials li li:last-child img {
 	padding:		15px;
 	right:			50px;
 	top:			150px;
+}
+
+.profilePage h2 {
+	
+	color:			white;
+	text-transform: uppercase;
+	font-weight: 	normal;
+	font-size:		13px;
+	margin-left:	180px;
+	margin-top:		20px;
+}
+
+.myProfile {
+	
+	margin-left:	195px;
+	margin-top:		40px;
+	padding-bottom:	20px;
+	width:			30%;
+	position:		relative;
+}
+
+.myProfile li {
+	
+	position:		relative;
+}
+
+.myProfile img {
+	
+	float:			left;
+	margin-top:		-12px;
+	margin-left:	-15px;
+	margin-right:	10px;
+	z-index:		2;
+}
+
+.myProfile ul {
+	
+	background-color:	rgba(255,255,255,0.6);
+	padding:			10px;
+}
+
+.myProfile a {
+	
+	font-size:			12px;
+	position:			absolute;
+	top:				39px;
+	right:				10px;
+}
+
+.myProfile a:before {
+	
+	font-family:		'icomoon';
+	content:			'\e61a';
+	margin-right:		10px;
+}
+
+.myMentorships {
+	
+	color:				white;
+	margin-left:		180px;
+	margin-top:			20px;
+}
+
+.myMentorships li {
+
+	position:			relative;
+	clear:				both;
+}
+
+.myMentorships img {
+
+	float:				left;
+	padding-bottom:		20px;
+	padding-right:		10px;
+}
+
+.myMentorships p {
+
+	padding-top:			30px;
+}
+
+.topMentors {
+	
+	color:				white;
+	position:			absolute;
+	right:				10px;
+	top:				130px;
+	width:				30%;
+}
+
+.topMentors li {
+
+	clear:				both;
+	border-bottom:		1px solid white;
+	height:				100px;
+}
+
+.topMentors img {
+
+	float:				left;
+	margin-left:		-3px;
+	margin-right:		10px;
+	padding-top:		10px;
+}
+
+.topMentors p {
+
+	padding-top:		30px;
+}
+
+.topMentors p:after {
+	
+	color:				yellow;
+	display:			block;
+	font-family:		'icomoon';
+	content:			'\e618 \e618 \e618 \e617 \e616';
+	padding-top:		10px;
+	letter-spacing:		3px;
+}
+
+.topMentors a {
+	
+	font-size:			12px;
+	position:			absolute;
+	right:				30px;
+	color:				white;
+}
+
+.topMentors a:after {
+	
+	font-family:		'icomoon';
+	font-size:			25px;
+	content:			'\e61b';
+	position:			absolute;
+	left:				101%;
+	top:				-6px;
 }

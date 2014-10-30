@@ -26,6 +26,10 @@ var apa = {
 			
 			apa.scroll('.start', 300);
 		} );
+		$(document).on( 'click', '.profile', function() {
+			
+			apa.scroll('.profilePage', 300);
+		} );
 		
 		apa.resize();
 	},
