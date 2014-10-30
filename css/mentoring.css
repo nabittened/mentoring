@@ -1,0 +1,399 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?algsb6');
+	src:url('../fonts/icomoon.eot?#iefixalgsb6') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?algsb6') format('woff'),
+		url('../fonts/icomoon.ttf?algsb6') format('truetype'),
+		url('../fonts/icomoon.svg?algsb6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	
+	margin:							0;
+	padding:						0;
+	-webkit-tap-highlight-color: 	transparent;
+	-webkit-touch-callout: 			none;
+	-webkit-user-select: 			none;
+	-khtml-user-select:				none;
+	-moz-user-select: 				none;
+	-ms-user-select: 				none;
+	user-select:					none;
+}
+
+input {
+	
+	-webkit-tap-highlight-color: 	white;
+	-webkit-touch-callout: 			initial;
+	-webkit-user-select: 			initial;
+	-khtml-user-select:				initial;
+	-moz-user-select: 				initial;
+	-ms-user-select: 				initial;
+	user-select:					initial;
+}
+
+*:focus {
+	
+	outline: 	0 none;
+}
+
+a:link,  a:visited,  a:focus,  a:hover,  a:active {
+	
+	color: 				rgb(53,53,53);
+	-moz-outline:		0;
+	outline: 			0;
+	text-decoration: 	none;
+}
+
+html {
+	
+	height:		100%;
+	width:		100%;
+}
+
+body {
+	
+	background:					url(../images/background.jpg) no-repeat center center;
+	-webkit-background-size: 	cover;
+    -moz-background-size: 		cover;
+    -o-background-size: 		cover;
+    background-size: 			cover;
+	position:					relative;
+	overflow:					hidden;
+	font-family:				'Droid Sans', sans-serif;
+	width:						100%;
+	height:						100%;
+}
+
+ul, li {
+	
+	list-style-type:	none;
+}
+
+header {
+	
+	background-color:	rgba(255,255,255,0.9);
+	display:			block;
+	height:				110px;
+	position:			fixed;
+	width:				100%;
+	-webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,0.5);
+	z-index:			100;
+}
+
+h1 {
+	
+	cursor:				pointer;
+	color:				#ffab00;
+	font-weight:		normal;#
+	font-size:			14px;
+	position:			absolute;
+	bottom:				5px;
+	left:				180px;
+}
+
+h1:before {
+	
+	color:			rgb(53,53,53);
+	font-size:		75px;
+	font-family:	'icomoon';
+	content:		'\e615';
+	position:		absolute;
+	right:			100%;
+	top:			-20px;
+}
+
+ul.sociallinks {
+	
+	position:	absolute;
+	bottom:		10px;
+	right:		50px;	
+}
+
+.sociallinks li {
+	
+	display:		inline-block;
+	font-size:		0px;
+	width:			20px;
+	height:			20px;
+	margin-left:	30px;
+	position:		relative;
+}
+
+.sociallinks li a {
+	
+	display:		inline-block;
+	width:			100%;
+	height:			100%;
+}
+
+.sociallinks a:before {
+	
+	color:			rgb(53,53,53);
+	display:		block;
+	font-family: 	'icomoon';
+	font-size:		25px;
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sociallinks a.facebook:before {
+	
+	content: "\e607";
+}
+
+.sociallinks a.twitter:before {
+	
+	content: "\e606";
+}
+
+.sociallinks a.google:before {
+	
+	content: "\e608";
+}
+
+.sociallinks a.pinterest:before {
+	
+	content: "\e609";
+}
+
+.content {
+	
+	position:		absolute;
+	top:			0px;
+	left:			0px;
+	z-index:		1;
+}
+
+.content section {
+	
+	padding-top:	130px;
+	box-sizing:		border-box;
+	position:		relative;
+}
+
+.explanation {
+	
+	background-color:	rgba(255,255,255,0.6);
+	box-sizing:			border-box;
+	padding:			15px;
+	line-height:		23px;
+	font-size:			14px;
+	margin-left:		180px;
+	width:				40%;
+}
+
+.start .explanation p {
+	
+	margin-bottom:		4px;
+}
+
+ul.actions {
+	
+	display:			block;
+	margin-top:			10px;
+	margin-left:		180px;
+	width:				40%;
+}
+
+ul.actions li {
+	
+	background-color:	rgba(255,255,255,0.6);
+	box-sizing:		border-box;
+	display:		inline-block;
+	width:			49%;
+	float:			left;
+	height:			35px;
+	line-height:	35px;
+	margin-right:	1%;
+	padding-left:	15px;
+	padding-right:	15px;
+	text-align:		center;
+	text-transform: uppercase;
+}
+
+ul.actions li:last-child {
+	
+	margin-right:	0;
+	float:			right;
+}
+
+ul.testimonials {
+	
+	position:	absolute;
+	top:		130px;
+	right:		20px;
+	width:		40%;
+	padding-bottom:	30px;
+}
+
+ul.testimonials li {
+	
+	color:				white;
+	font-size:			14px;
+	font-style: 		italic;
+	border-bottom:		4px solid white;
+}
+
+ul.testimonials li ul {
+	
+	margin-bottom:		5px;
+}
+
+ul.testimonials li li {
+	
+	margin-bottom:	4px;
+	border-bottom:	1px solid white;
+}
+
+ul.testimonials li li p {
+	
+	padding-top:	20px;
+	padding-bottom:	30px;
+}
+
+ul.testimonials li li:last-child {
+	
+	border-bottom:	none;
+}
+
+ul.testimonials li li img {
+	
+	float:	left;
+	padding-right:	10px;
+	padding-top:	10px;
+}
+
+ul.testimonials li li:last-child img {
+	
+	float:right;
+	padding-right:	0px;
+	padding-left:	10px;
+}
+
+.mentorships ul {
+	
+	
+	position:		relative;
+	padding-top:	10px;
+	margin:			0 auto;
+	width:			80%;
+}
+
+.mentorships ul li {
+	
+	background-color:	rgba(255,255,255,0.6);
+	margin-bottom:		10px; 
+	position:			relative;
+	height:				110px;
+}
+
+.mentorships ul li img {
+	
+	float:			left;
+	margin:			10px;
+	margin-right:	15px;
+}
+
+.mentorships ul li p {
+	
+	
+	padding-top:	10px;
+	line-height:	20px;
+}
+
+.mentorships ul li a {
+	
+	background-color:	rgba(255,255,255,0.6);
+	position:			absolute;
+	width:				200px;
+	text-transform:		uppercase;
+	text-align:			center;
+	bottom:				0px;
+	right:				0px;
+	height:				30px;
+	line-height:		30px;
+}
+
+.register form {
+	
+	position:		absolute;
+	top:			150px;
+	left:			180px;
+	width:			40%;
+}
+
+.register label {
+	
+	color:			white;
+	font-weight:	normal;
+	font-size:		12px;
+	display:		block;
+	width:			60%;
+	margin-bottom:	5px;
+}
+
+.register textarea {
+	
+	display:		block;
+	width:			60%;
+	height:			200px;
+	margin-bottom:	30px;
+}
+
+.register input {
+	
+	display:		block;
+	width:			60%;
+	height:			30px;
+	line-height:	30px;
+	margin-bottom:	10px;
+}
+
+.register a {
+	
+	padding:		15px;
+	width:			200px;
+	box-sizing:		border-box;
+	text-transform:	uppercase;
+	background:		rgba(255,255,255,0.6);
+	margin-top:		5px;
+	text-align: 	center;
+}
+
+.register a.fotoupload {
+	
+	position:		absolute;
+	right:			0px;
+	width:			150px !important;
+	top:			180px;
+}
+
+
+.register img {
+	
+	
+	position:		absolute;
+	right:			0px;
+	top:			0px;
+	width:			150px;}
+
+.register .info {
+	
+	background-color:	rgba(255,255,255,0.6);
+	box-sizing:		border-box;
+	position:		absolute;
+	width:			30%;
+	padding:		15px;
+	right:			50px;
+	top:			150px;
+}
