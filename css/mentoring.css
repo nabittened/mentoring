@@ -416,6 +416,13 @@ ul.testimonials li li:last-child img {
 	margin-top:		20px;
 }
 
+h2.hitlist {
+
+	position:		absolute;
+	right:			26%;
+	top:			130px;
+}
+
 .myProfile {
 	
 	margin-left:	195px;
@@ -490,7 +497,7 @@ ul.testimonials li li:last-child img {
 	color:				white;
 	position:			absolute;
 	right:				10px;
-	top:				130px;
+	top:				180px;
 	width:				30%;
 }
 
